@@ -43,9 +43,11 @@
   background: #7878a3;
 }
 
+
+
 @layer utilities {
   .input-class {
-    @apply text-16 placeholder:text-16 rounded-lg border border-gray-300 text-gray-900 placeholder:text-gray-500;
+    @apply text-[16px] placeholder:text-[16px] rounded-[lg] border border-gray-[300] text-gray-900 placeholder:text-gray-500;
   }
 
   .sheet-content button {
@@ -179,7 +181,7 @@
   }
 
   .profile-email {
-    @apply text-16 font-normal text-gray-600;
+    @apply text-[16px] font-normal text-gray-600;
   }
 
   .banks {
@@ -292,11 +294,11 @@
   }
 
   .form-btn {
-    @apply text-16 rounded-lg border border-bankGradient bg-bank-gradient font-semibold text-white shadow-form;
+    @apply text-[16px] rounded-lg border border-bankGradient bg-bank-gradient font-semibold text-white shadow-form;
   }
 
   .form-link {
-    @apply text-14 cursor-pointer font-medium text-bankGradient;
+    @apply text-[16px] cursor-pointer font-medium text-bankGradient;
   }
 
   /* Payment Transfer */

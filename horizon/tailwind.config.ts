@@ -88,6 +88,11 @@ const config = {
         inter: "var(--font-inter)",
         "ibm-plex-serif": "var(--font-ibm-plex-serif)",
       },
+      fontSize: {
+        16: '16px',
+        18: '18px',
+        24: '24px',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
